@@ -1,0 +1,45 @@
+<!--Create an HTML page with a button. Write a JavaScript program that, upon a button click makes a
+Fetch API request to a random user API (e.g., "https://randomuser.me/api/") displays information
+about a random user, such as their name, email, and profile picture, on the webpage.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random User Fetch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 40px;
+            background-color: rgb(184, 215, 174);
+        
+        }
+        img {
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Random User Generator</h2>
+
+    <button id="fetchUserBtn">Get Random User</button>
+
+    <div id="userInfo">
+        <p id="name"></p>
+        <p id="email"></p>
+        <img id="profilePic" src="" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
