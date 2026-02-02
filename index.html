@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fun society club event registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1><B>FUN SOCIETY CLUB</B></h1>
+    <h2> Welcome to your Society Events</h2>
+
+    <!-- Events Container -->
+    <section id="eventsSection">
+        <h3>Available Events</h3>
+        <div id="eventList"></div>
+        <p id="helpText">Click "Register" to join an event.</p>
+    </section>
+
+    <hr>
+
+    <!-- Admin Section --> 
+    <h2>Admin Panel</h2>
+    <div id="admin">
+        <label for="eventName">New event name:</label>
+        <input type="text" id="eventName" placeholder="Event name">
+        <input for ="description" type="text" id="description" placeholder="Event description">
+        <button onclick="addEvent()">Add Event</button>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; Fun Society Club. Managed by Daman (club head). All rights reserved.</p>
+    </footer>
+</body>
+</html>
